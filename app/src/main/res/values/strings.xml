@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="counter_text">Счётчик: %d</string>
+    <string name="button_increment">+1</string>
+    <string name="hint_input">Введите текст</string>
+    <string name="button_show">Показать</string>
+    <string name="button_add_task">Добавить задачу</string>
+    <string name="label_entered">Вы ввели:</string>
+    <string name="label_add_tasks">Добавление задачи:</string>
+    <string name="label_tasks">Список задач:</string>
+    <string name="label_task_count">Всего задач: %d</string>
+    <string name="toast_empty_task">Введите задачу</string>
+    <string name="button_reset_counter">Сбросить счётчик</string>
+    <string name="button_delete_last">Удалить последнюю</string>
+</resources>
