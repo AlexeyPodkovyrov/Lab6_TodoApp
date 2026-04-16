@@ -59,7 +59,7 @@
             android:textSize="18sp"
             android:layout_marginBottom="24dp"/>
 
-        <!-- Блок 3: ToDO список -->
+        <!-- Блок 3: Добавление задач в ToDO-список  -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
                 android:minWidth="120dp"/>
         </LinearLayout>
 
-        <!-- Блок 4: Счётчик задач -->
+        <!-- Блок 4: Список задач -->
         <TextView
             android:id="@+id/textTaskCount"
             android:layout_width="wrap_content"
@@ -117,14 +117,14 @@
             android:textStyle="bold"
             android:layout_marginBottom="4dp"/>
 
-        <TextView
-            android:id="@+id/textTasks"
+        <!--  RecyclerView для списка задач -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTasks"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:text="@string/label_tasks"
-            android:textSize="16sp"
+            android:layout_height="400dp"
             android:background="#F0F0F0"
-            android:padding="8dp"
+            android:padding="4dp"
             android:scrollbars="vertical"/>
+
     </LinearLayout>
 </ScrollView>
